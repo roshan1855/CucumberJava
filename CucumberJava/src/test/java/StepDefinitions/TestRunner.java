@@ -6,7 +6,7 @@ import io.cucumber.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features="src/test/resources/Features", 
+		features="src/test/resources/Features",
 
 		glue= {"StepDefinitions"}, 
 
@@ -16,9 +16,9 @@ import io.cucumber.junit.Cucumber;
 
 				"junit:target/JUnitReports/report.xml",
 				"json:target/JSONReports/report.json",
-		"html:target/HtmlReports"},
+		"html:target/HtmlReports"}
 
-		tags="@smoketest"	
+		//tags="@Test1"	
 		)
 public class TestRunner {
 

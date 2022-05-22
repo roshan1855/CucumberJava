@@ -11,3 +11,9 @@ Feature: feature to test login functionality
       | username |  | password |
       | Abc123   |  | yhn432   |
       | DEF123   |  | ujm432   |
+
+  @Test1
+  Scenario Outline: click on the login
+    Given user is on login page
+    Then user should able to click on Freen Signup
+
