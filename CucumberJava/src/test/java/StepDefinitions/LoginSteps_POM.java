@@ -21,7 +21,7 @@ public class LoginSteps_POM {
 	@Given("user is on login page")
 	public void user_is_on_login_page() {
 		System.out.println("Inside Step1");
-		System.setProperty("webdriver.chrome.driver", "CucumberJava\\src\\main\\resources\\Drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
